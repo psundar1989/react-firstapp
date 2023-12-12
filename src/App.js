@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-
+import '../src/sass/App.scss';
 // function App() {
 //   return (
 //     <div className="App">
@@ -39,7 +39,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <p>Hi how are {handleNameChange()}</p>
+        <p className='name_text'>Hi how are {handleNameChange()}</p>
         <Header/>
         <Header2/>
       </div>
